@@ -8,7 +8,7 @@ To build the project and generate a binary run the following in your command lin
 cmake -B build
 cmake --build build
 ```
-The `-B` paramter also allows [specify the path to the root build diectory](https://cmake.org/cmake/help/latest/manual/ccmake.1.html#cmdoption-ccmake-B) and the `--build` flag allows us to [specify where the project binary will be built](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build).
+In the lines above, the `-B` paramter allows [specify the path to the root build diectory](https://cmake.org/cmake/help/latest/manual/ccmake.1.html#cmdoption-ccmake-B) and the `--build` flag allows us to [specify where the project binary directory is to be built](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build).
 
 # Modifications
 
