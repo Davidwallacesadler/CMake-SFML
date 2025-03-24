@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include "tileGrid.hpp"
 
 int main()
 {
@@ -10,6 +11,9 @@ int main()
     sf::Vector2f ballVelocity{ 10.f, 10.f };
     sf::CircleShape ball{ ballRadius };
     ball.setFillColor(sf::Color{255, 0, 0});
+
+    TileGrid grid{64, 10, 10};
+    grid.print();
 
     while (window.isOpen())
     {
