@@ -10,13 +10,6 @@ cmake --build build
 ```
 In the lines above, the `-B` paramter allows [specify the path to the root build diectory](https://cmake.org/cmake/help/latest/manual/ccmake.1.html#cmdoption-ccmake-B) and the `--build` flag allows us to [specify where the project binary directory is to be built](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build).
 
-Optionally you can add a third line to launch the executable after the build completes:
-```bash
-cmake -B build
-cmake --build build
-./build/bin/main
-```
-
 # Modifications
 
 To access other SFML Libraries other than the default of graphics add a `target_link_libraries` line to the `CMakeLists.txt` file.
